@@ -481,7 +481,7 @@ main .profile{
     height: 60px;
     text-align: center;
     font-size: 32px;
-    color: #2eca7f;
+    color:black;
     background: linear-gradient(135deg, rgba(46, 202, 127, 0.4) 0%, rgba(46, 202, 127, 0.01) 100%);
     border-radius: 60px;
     display: flex;
@@ -604,7 +604,7 @@ main .profile{
 }
 
 .about-pricing a:hover{
-    color: #2eca7f;
+    color:pink;
 }
 
 .about-fun{
