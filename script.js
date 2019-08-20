@@ -40,7 +40,7 @@ function remove() {
     works.classList.remove('view');
     getWorks.classList.remove('selected');
     blog.classList.remove('view');
-    getBlog.classList.remove('selected');
+   
     contact.classList.remove('view');
     getContact.classList.remove('selected');
 }
@@ -70,14 +70,7 @@ getWorks.addEventListener('click', function (e) {
         getWorks.classList.add('selected');
     }
 })
-getBlog.addEventListener('click', function (e) {
-    if (window.innerWidth > 1040) {
-        e.preventDefault();
-        remove();
-        blog.classList.add('view');
-        getBlog.classList.add('selected');
-    }
-})
+
 getContact.addEventListener('click', function (e) {
     if (window.innerWidth > 1040) {
         e.preventDefault();
