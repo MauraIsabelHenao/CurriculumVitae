@@ -767,7 +767,7 @@ main .profile{
 }
 
 .resume-skills > div section > div > div > div{
-    background: #2eca7f;
+    background:violet;
     height: 4px;
 }
 
@@ -789,7 +789,7 @@ main .profile{
     width: 40px;
     height: 40px;
     font-size: 26px;
-    color: #2eca7f;
+    color: violet;
 }
 
 .works-header{
